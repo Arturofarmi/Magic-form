@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #EBDCCB;
+    font-family: 'Inter', sans-serif;
+}
+
+.header{
+    background-color: #91818A;
+    color: #20201D;
+    height: 60px;
+    font-size: 30px;
+    line-height: 50px;
+    padding-left: 50px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header a:hover{
+    border-bottom: solid #20201D;
+}
+
+form{
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label{
+    color: #20201D;
+    font-size: 25px;
+    line-height: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+form input{
+    height: 35px;
+    width: 500px;
+    font-size: 25px;
+}
+
+#submit-button{
+    height: 35px;
+    width: 300px;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.submit-history-card{
+    color: #20201D;
+    font-size: 22px;
+    width: 1100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.submit-history-card p{
+    width: inherit;
+    padding: 10px;
+    background-color: #FCFDFB;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.delete-button{
+    background-color: #A92954;
+    height: 45px;
+    font-size: 22px;
+    padding: 10px;
+    margin-top: 10px;
+    color: #FCFDFB;
+    border: none;
+}
